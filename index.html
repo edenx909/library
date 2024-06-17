@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="add.js"></script>
+</head>
+<body>
+   
+    <table id="main">
+        <caption>Current Library</caption>
+            <thead><tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Author</th>
+                    <th scope="col">Pages</th>
+                    <th scope="col">Read?</th>
+                    <th scope="col">Remove</th>
+                </thead>
+                </tr>
+            </thead>
+            <tr>
+                <td>Gone Girl</th>
+                <td>Gillian Flynn</td>
+                <td>578</td>
+                <td>Yes</td>
+                <td><button class="delete">Delete</button></td>
+            </tr>
+            <tr>
+                <td>If I Stay</th>
+                <td>Gayle Forman</td>
+                <td>235</td>
+                <td>No</td>
+                <td><button>Delete</button></td>
+            </tr>
+    </table>
+    <h2 style="text-align: center;">Add a New Book to Your Library</h2>
+    <form action="" method="get" id="bookForm">
+        <div class="bookForm">
+            <label for="name">Name of the Book</label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div class="bookForm">
+            <label for="author">Author of the Book</label>
+            <input type="text" name="author" id="author" required>
+        </div>
+        <div class="bookForm">
+            <label for="pages">Number of Pages</label>
+            <input type="number" name="pages" id="pages" required>
+        </div>
+        <div class="bookForm">
+            <label for="read">Read?</label>
+            <input type="checkbox" name="read" id="read">
+        </div>
+        <div class="bookForm">
+            <input type="submit" value="Add to Library">
+        </div>
+    </form>
+</body>
+</html>

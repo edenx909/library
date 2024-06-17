@@ -1,0 +1,40 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 0 auto;
+    
+}
+
+caption {
+    caption-side: top;
+    padding: 10px;
+}
+
+body {
+    padding: 40px;
+    
+}
+
+thead {
+    background-color: darkcyan;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+a {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 100px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+button {
+    display: flex;
+    align-items: center;
+}
